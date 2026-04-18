@@ -232,7 +232,7 @@ results, X_train, X_test, y_train, y_test = train_models(use_cbfs)
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
-st.title("Divorce Prediction Pipeline")
+st.title("Divorce Prediction Pipeline  (data tiruan, untuk gambaran bagaimana metodlogi penelitian berikut https://www.nature.com/articles/s41598-023-50839-1 )")
 st.markdown(
     "Implementasi pipeline ML berbasis **Divorce Predictor Scale (DPS)** dan teori **Gottman Couples Therapy**. "
     "Data dummy 200 partisipan dibangun dengan noise dan overlap realistis antar kelas."
