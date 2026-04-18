@@ -410,15 +410,7 @@ untuk memprediksi status pernikahan dengan akurasi tinggi.
         ax4.spines[["top","right"]].set_visible(False)
         st.pyplot(fig4); plt.close()
 
-    st.markdown("---")
-    st.markdown("**Jenis Pernikahan**")
-    fig5, axes5 = plt.subplots(1,2, figsize=(6,3))
-    for ax5, (sub, title) in zip(axes5, [(m_df,"Menikah"),(d_df,"Bercerai")]):
-        cnt = sub["MarriageType"].value_counts()
-        ax5.pie(cnt.values, labels=cnt.index, autopct="%1.0f%%",
-                colors=["#55A868","#C44E52"], startangle=90)
-        ax5.set_title(title, fontsize=9)
-    plt.tight_layout(); st.pyplot(fig5); plt.close()
+
 
 # ══════════════════════════════════════════════
 # TAB 3
